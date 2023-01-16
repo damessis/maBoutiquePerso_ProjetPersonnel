@@ -1,0 +1,49 @@
+
+<rss version="2.0"> 
+	<channel> 
+	 <title>Ma Boutique Perso</title>
+	    <description>news de maBoutiquePerso</description> 
+	    <link>http://localhost/maBoutiquePerso</link> 
+	    <pubDate>2007-09-15</pubDate> 
+	    <language>fr</language>  
+	    <image>   
+	        <title></title>   
+	        <url>http://localhost/maBoutiquePerso/images/img.jpg</url>    
+	        <link>http://localhost/maBoutiquePerso/images/img.jpg</link>   
+	        <width>120</width>   
+	        <height>150</height>  
+	    </image>
+  
+	<item>  
+	    <title>vente</title>   
+	    <description>Casquette de Mel Gibson !</description>   
+	    <pubDate>2009-07-23 </pubDate> 
+    </item>  
+    <item>
+        <title>Vente</title>   
+	    <description>Mug de Nathalie Portman</description>   
+	    <pubDate>18/07/2009  </pubDate> 
+    </item> 
+    <item>
+        <title>Information</title>   
+	    <description>DVD de Matrix (films + bonus) édition limitée</description>   
+	    <pubDate>15/07/2009  </pubDate> 
+    </item>
+    <item>  
+	    <title>vente</title>   
+	    <description>Casquette de Mel Gibson !</description>   
+	    <pubDate>2009-07-23 </pubDate> 
+    </item>  
+    <item>
+        <title>Vente</title>   
+	    <description>Mug de Nathalie Portman</description>   
+	    <pubDate>18/07/2009  </pubDate> 
+    </item> 
+    <item>
+        <title>Information</title>   
+	    <description>DVD de Matrix (films + bonus) édition limitée</description>   
+	    <pubDate>15/07/2009  </pubDate> 
+    </item>
+    </channel>
+</rss>
+

@@ -1,0 +1,279 @@
+#divPrincipal {
+            left: 50%;
+            top: 50%;
+            width: 700px;
+            height: 500px;
+            margin-left: -350px;
+            margin-top: -250px;
+            background-image: url(images/fond.jpg);
+            
+        }
+        
+        #divTitre {
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 60px;
+            background-size: cover;
+            background-image: url(images/titre.jpg);
+            background-repeat: no-repeat;
+        }
+        
+        #divMenus {
+            left: 0px;
+            top: 60px;
+            width: 100%;
+            height: 20px;
+            display: inline-flex;
+            text-align: center;
+            background-color: black;
+        }
+        
+        #divBandeau {
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100px;
+            margin-top: 82px;
+            overflow: hidden;
+            background: blue;
+        }
+        
+        #divBandeau figure {
+            position: relative;
+            width: 400%;
+            height: 100%;
+            margin: 0;
+            left: 0;
+            animation: 10s slider infinite;
+        }
+        
+        #divBandeau figure img {
+            float: left;
+            width: 25%;
+        }
+        
+        @keyframes slider {
+            0% {
+                left: 0;
+            }
+            25% {
+                left: -100%;
+            }
+            50% {
+                left: -200%;
+            }
+            75% {
+                left: -300%;
+            }
+            100% {
+                left: 0;
+            }
+        }
+        
+        #divPostits {
+            left: 350px;
+            top: 160px;
+            width: 320px;
+            height: 220px;
+        }
+        
+        #divPostit1 {
+            left: 0px;
+            top: 0px;
+        }
+        
+        #divPostit2 {
+            left: 170px;
+            top: 0px;
+        }
+        
+        #divPostit3 {
+            left: 0px;
+            top: 120px;
+        }
+        
+        #divPostit4 {
+            left: 170px;
+            top: 120px;
+        }
+        
+        #divIdent {
+            left: 30px;
+            top: 200px;
+            width: 160px;
+            height: 60px;
+            background-image: url("images/ident.png");
+            background-repeat: no-repeat;
+        }
+        
+        #divTextIdent {
+            left: 40px;
+            top: 0px;
+            width: 120px;
+            height: 100%;
+        }
+        
+        #divTextBienvenu {
+            left: 40px;
+            top: 0px;
+            width: 120px;
+            height: 100%;
+            visibility: hidden;
+        }
+        
+        #divNews {
+            left: 30px;
+            top: 280px;
+            width: 250px;
+            height: 195px;
+            background-color: #FFFFFF;
+        }
+        
+        #divImgNews {
+            background-image: url("images/news.png");
+            background-repeat: no-repeat;
+            width: 250px;
+            height: 195px;
+            z-index: 1;
+        }
+        
+        #divTextNews {
+            left: 0px;
+            top: 75px;
+            width: 100%;
+            background-color: #FFFFFF;
+        }
+        
+        #divLiens {
+            left: 350px;
+            top: 430px;
+            width: 320px;
+            height: 45px;
+            background-color: #FFFFFF;
+        }
+        
+        #divTextLiens {
+            left: 50px;
+            top: 0px;
+            width: 270px;
+            height: 100%;
+        }
+        
+        .divLienTitre {
+            background-color: #AAAAAA;
+            font-weight: bold;
+            width: 100%;
+            height: 30%;
+            text-align: center;
+        }
+        
+        .divLiensText {
+            top: 30%;
+            text-align: left;
+            font-size: small;
+            color: #000000;
+        }
+        
+        #divPied {
+            left: 0px;
+            top: 487px;
+            width: 100%;
+            height: 13px;
+            font-size: x-small;
+            text-align: right;
+            background-color: #666666;
+        }
+        
+        .petitTitre {
+            background-color: #AAAAAA;
+            font-weight: bold;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .petitTexte {
+            text-align: left;
+            font-size: x-small;
+            color: #000000;
+        }
+        
+        div.divPostit {
+            width: 150px;
+            height: 100px;
+            background-color: #AAAAAA;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        a:link {
+            text-decoration: none;
+            color: #AAAAAA;
+        }
+        
+        a:visited {
+            text-decoration: none;
+            color: #AAAAAA;
+        }
+        
+        a:active {
+            text-decoration: none;
+            color: black;
+        }
+        
+        div {
+            overflow: hidden;
+            position: absolute;
+            font-family: Verdana, Serif;
+            font-size: small;
+            color: #FFFFFF;
+        }
+        /*css page t-shirt*/
+        #divIntro{
+             top:180px;
+             left:0px;
+             background-color: white;
+        }
+
+       
+        #divTshirt{
+            top:250px;
+            left:0px;
+            width: 300px;
+            height: 240px;
+            background-image: url(images/tshirts/blanc.jpg);
+        }
+        
+        
+        #divAjout{
+            top:280px;
+            left:320px;
+            width: 200px;
+            height: 190px; 
+            background-color: white;
+            overflow: auto;
+        }
+        #divVisuel{
+            top:330px;
+            left:360px;
+            width:120px;
+            height:120px;
+            background-color: white;
+            
+        }
+        #divAjoutSurShirt{
+            top:330px;
+            left:85px;
+            width:120px;
+            height:120px;
+            /*background-color:white;*/
+        }
+        #divSelec{
+            top:230px;
+            left:540px;
+            width: 150px;
+            height: 340px; 
+            background-color: white;
+        }
+     
+            
